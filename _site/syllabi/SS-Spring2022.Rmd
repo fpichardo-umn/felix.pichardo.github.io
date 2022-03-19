@@ -114,7 +114,7 @@ cat(gsub("\"", "", gsub("c\\(|\\)$", "", paste("*", books))), sep = "\n\n")
   + Lab on Social Learning
 
 ### Mon, May 16
-### Readings:
+#### Readings:
 * [@Rhoads2022] Week 11
    + Prosocial RL Exercise
 * [@Rhoads2022] Week 13
@@ -123,7 +123,7 @@ cat(gsub("\"", "", gsub("c\\(|\\)$", "", paste("*", books))), sep = "\n\n")
   + Read 3
 
 ### Mon, May 23
-### Readings:
+#### Readings:
 * [@Rhoads2022] Week 14
   + Read 1
   + Read 2
