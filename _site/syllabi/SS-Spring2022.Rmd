@@ -1,0 +1,135 @@
+---
+title: "Self Syllabus - Spring 2022"
+author: "Felix Pichardo"
+date: "2/18/2022"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    highlight: zenburn
+    df_print: paged
+bibliography: "self_syllabus-Spring_2022.bib"
+nocite: '@*'
+citations-hover	: true
+csl: "apa-annotated-bibliography.csl"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+biblio = bibtex::read.bib("self_syllabus-Spring_2022.bib")
+
+books = lapply(names(biblio), function(x) paste(capture.output(print(biblio[x])), collapse = " "))
+names(books) = names(biblio)
+
+# Remove citations not to be read
+books["calgen2022"] = NULL
+```
+
+# Syllabus
+## Topics:
+* Modeling
+  + Inference
+  + Computational
+
+## Materials:
+```{r blulletlist, echo = F, results='asis'}
+cat(gsub("\"", "", gsub("c\\(|\\)$", "", paste("*", books))), sep = "\n\n")
+```
+
+
+### Mon, Feb 21
+#### Readings:
+* [@anderson2008model]
+  + Chapter 1
+
+
+### Mon, Feb 28
+#### Readings:
+* [@anderson2008model]
+  + Chapter 2
+
+### Mon, Mar 7
+#### Readings:
+* [@anderson2008model]
+  + Chapter 3
+
+### Mon, Mar 21
+#### Readings:
+* [@anderson2008model]
+  + Chapter 4
+
+### Mon, Mar 28
+#### Readings:
+* [@anderson2008model]
+  + Chapter 5
+
+### Mon, Apr 4
+#### Readings:
+* [@anderson2008model]
+  + Chapter 6
+
+### Mon, Apr 11
+#### Readings:
+* [@anderson2008model]
+  + Chapter 7
+
+### Mon, Apr 18
+#### Readings:
+* [@Rhoads2022] Week 2
+  + Read 1
+  + Read 2
+* [@Rhoads2022] Week 3
+  + Read 1
+  + Lab on Linear Models
+
+### Mon, Apr 25
+#### Readings:
+* [@Rhoads2022] Week 4
+  + Read 1
+  + Lab on Nonlinear Models
+  + Modeling Exercise
+* [@Rhoads2022] Week 5
+  + Read 1
+  + Lab on 2-Armed Bandit
+
+### Mon, May 2
+#### Readings:
+* [@Rhoads2022] Week 6
+  + Lab on Models of Learning
+  + RL Exercise
+* [@Rhoads2022] Week 7
+  + Read 1
+* [@Rhoads2022] Week 8
+  + Read 1
+  + Read 2
+
+### Mon, May 9
+#### Readings:
+* [@Rhoads2022] Week 9
+  + Read 1
+  + Read 2
+  + Read 3
+* [@Rhoads2022] Week 10
+  + Lab on Social Learning
+
+### Mon, May 16
+### Readings:
+* [@Rhoads2022] Week 11
+   + Prosocial RL Exercise
+* [@Rhoads2022] Week 13
+  + Read 1
+  + Read 2
+  + Read 3
+
+### Mon, May 23
+### Readings:
+* [@Rhoads2022] Week 14
+  + Read 1
+  + Read 2
+* [@Rhoads2022] Week 15
+  + Read 1
+  + Read 2
+  + Read 3
+
+# References
