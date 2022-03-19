@@ -1,5 +1,8 @@
 ---
 title: "Felix M Pichardo V"
+author: "Felix Pichardo"
+date: "3/18/2022"
+output: html_document
 ---
 
 # Personal Website
