@@ -2,7 +2,7 @@ name: "self-syllabus"
 navbar:
   left:
     - text: "Felix's Personal Website"
-      href: ../index.html
+      href: ./../index.html
     - text: "Syllabi"
       menu:
         - text: "Spring 2022"
