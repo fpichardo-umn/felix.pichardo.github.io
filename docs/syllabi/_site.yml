@@ -1,0 +1,17 @@
+name: "self-syllabus"
+navbar:
+  title: "Personal Syllabi"
+  left:
+    - text: "Home"
+      href: ../index.html
+    - text: "Syllabi"
+      menu:
+        - text: "Spring 2022"
+          href: SS-Spring2022.html
+  right: 
+    - icon: fa-github fa-lg
+      href: http://github.com/fpichardo-umn/
+output:
+  html_document:
+    theme: journal
+output_dir: "."
