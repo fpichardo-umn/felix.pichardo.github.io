@@ -1,9 +1,8 @@
 name: "self-syllabus"
 navbar:
-  title: "Personal Syllabi"
+  title: "Felix's Personal Website"
+  href: index.html
   left:
-    - text: "Home"
-      href: index.html
     - text: "Syllabi"
       menu:
         - text: "Spring 2022"

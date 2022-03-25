@@ -1,6 +1,6 @@
 ---
-title: "Felix M Pichardo V"
-author: "Felix Pichardo"
+title: "Personal Syllabi"
+author: "Felix M. Pichardo V."
 date: "3/18/2022"
 output: html_document
 ---
